@@ -55,7 +55,7 @@ let rolesA = [
     
 ].map(role => ({ role: role }));
 
-let actions = ['registrar', 'eliminar'];
+let actions = ['registrar', 'eliminar', 'editar'];
 
 
 

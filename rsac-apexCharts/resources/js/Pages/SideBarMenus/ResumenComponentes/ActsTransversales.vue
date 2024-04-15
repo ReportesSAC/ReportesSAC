@@ -143,7 +143,7 @@ const openEliminarDialog = () => {
                     </template>
                 </Column>
 
-                <Column :rowEditor="true" style="width: 10%; min-width: 8rem" bodyStyle="text-align:center">
+                <Column v-if="is('Resumen-editar || Administrador || SecretarioAcademico')" :rowEditor="true" style="width: 10%; min-width: 8rem" bodyStyle="text-align:center">
                 </Column>
         </DataTable>
 

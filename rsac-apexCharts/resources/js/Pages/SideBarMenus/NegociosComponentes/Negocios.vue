@@ -1441,6 +1441,7 @@ watchEffect(() => {
                             :rowEditor="true"
                             style="width: 10%; min-width: 8rem"
                             bodyStyle="text-align:center"
+                            v-if="is('Negocios-editar || Administrador || SecretarioAcademico')"
                         >
                         </Column>
 

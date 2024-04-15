@@ -1089,6 +1089,7 @@ const tipos = [
                     :rowEditor="true"
                     style="width: 10%; min-width: 8rem"
                     bodyStyle="text-align:center"
+                    v-if="is('Resumen-editar || Administrador || SecretarioAcademico')"
                 >
                 </Column>
 

@@ -1442,6 +1442,7 @@ watchEffect(() => {
                             :rowEditor="true"
                             style="width: 10%; min-width: 8rem"
                             bodyStyle="text-align:center"
+                            v-if="is('Sistemas-editar || Administrador || SecretarioAcademico')"
                         >
                         </Column>
 
